@@ -3,9 +3,10 @@
 Bitcoin media server using nodejs
 
 # How to run
-To run the web server
+Run the web server from src directory
 ```
-node src/server.js  
+cd src
+node server.js  
 ```
 
 Then browse to http://localhost:8080/demo.html  
