@@ -1,7 +1,7 @@
 
 const manifestUri =
     //'https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd' //works
-    'http://localhost:8080/videos/bunny.m3u8' // error 4022
+    'http://35.202.6.98/videos/bunny.m3u8' // error 4022
     //'/videos/index.m3u8'
     //'https://mymoney.stream/videos/bunny/bunny.mp4' // works
     //'https://mymoney.stream/videos/bunny/bunny.m3u8' // error 1002 CORS
