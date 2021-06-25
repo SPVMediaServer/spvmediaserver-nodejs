@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, flash
-from encryptiontest import EncryptionTest
+from encryption import EncryptionTest
 
 
 app = Flask(__name__)
