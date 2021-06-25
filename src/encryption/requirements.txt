@@ -1,0 +1,2 @@
+flask==2.0.1
+pyAesCrypt==6.0.0
