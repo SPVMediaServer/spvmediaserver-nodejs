@@ -5,17 +5,16 @@ import string
 class EncryptionTest:
 
     def encryption(files):
-        password = EncryptionTest.passwordGenerator(12);
-        temp = files
+        file_name = EncryptionTest.passwordGenerator(12)
+        file_password = EncryptionTest.passwordGenerator(12)
 
-        crypt.encryptFile(files, "{}.aes".format(files[:-3]), password)
-        return {"Secret Key" : password}
+        crypt.encryptFile(files, "{}.aes".format(file_name), file_password)
+        return {"Secret Key" : file_password, "token": file_name}
     
     def passwordGenerator(len):
         letters = string.ascii_letters
-        punctuation = string.punctuation
 
-        lists = string.digits + letters + punctuation
+        lists = string.digits + letters
 
         choice = random.sample(lists, len)
 
